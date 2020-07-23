@@ -1,0 +1,26 @@
+{
+  "name": "tw",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production postcss css/app.css -o public/build/app.css",
+    "dev": "postcss css/app.css -o public/build/app.css",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "dev": {
+      "patterns": [
+        "./tailwind.config.js",
+        "css/"
+      ],
+      "extensions": "css"
+    }
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "npm-watch": "^0.6.0",
+    "postcss-cli": "^6.1.2",
+    "tailwindcss": "^1.0.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}

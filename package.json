@@ -1,8 +1,8 @@
 {
   "name": "tw",
   "scripts": {
-    "build": "cross-env NODE_ENV=production postcss css/app.css -o public/build/app.css",
-    "dev": "postcss css/app.css -o public/build/app.css",
+    "build": "cross-env NODE_ENV=production postcss css/app.css -o public/css/app.css",
+    "dev": "postcss css/app.css -o public/css/app.css",
     "watch": "npm-watch"
   },
   "watch": {
@@ -15,12 +15,10 @@
     }
   },
   "dependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.8",
     "npm-watch": "^0.6.0",
-    "postcss-cli": "^6.1.2",
-    "tailwindcss": "^1.0.4"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.2"
+    "postcss-cli": "^7.1",
+    "tailwindcss": "^1.5",
+    "cross-env": "^7.0"
   }
 }

@@ -1,3 +1,3 @@
-# A simple starting point for TailWind
+# A 'simple' starting point for TailWind.
 
-`npm i` then `npm run watch`.
+`npm i` then `npm run seve`.

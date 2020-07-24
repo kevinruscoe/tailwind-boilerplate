@@ -20,6 +20,7 @@
     "js:dev": "src/js/**/*.js"
   },
   "dependencies": {
+    "tailwindcss": "^1.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -32,7 +33,6 @@
     "autoprefixer": "^9.8",
     "npm-watch": "^0.6",
     "postcss-cli": "^7.1",
-    "tailwindcss": "^1.5",
     "cross-env": "^7.0"
   },
   "browserslist": [

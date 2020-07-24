@@ -1,6 +1,7 @@
 var plugins = [];
 
 plugins.push(require('tailwindcss'));
+plugins.push(require('postcss-nested'));
 
 if (process.env.NODE_ENV === 'production') {
     plugins.push(
@@ -8,6 +9,8 @@ if (process.env.NODE_ENV === 'production') {
             grid: "autoplace"
         })
     );
+
+    plugins.push(require('cssnano'));
 }
 
 module.exports = {

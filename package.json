@@ -1,18 +1,20 @@
 {
   "name": "tw",
   "scripts": {
-    "build": "cross-env NODE_ENV=production postcss css/app.css -o public/css/app.css",
-    "dev": "postcss css/app.css -o public/css/app.css",
+    "build": "cross-env NODE_ENV=production npm run css:dev && npm run js:dev",
+    "css:dev": "postcss src/css/app.css -o public/build/css/app.css",
+    "js:dev": "babel src/js -d public/build/js",
     "watch": "npm-watch"
   },
   "watch": {
-    "dev": {
+    "css:dev": {
       "patterns": [
         "./tailwind.config.js",
-        "css/"
+        "src/css/"
       ],
       "extensions": "css"
-    }
+    },
+    "js:dev": "src/js/**/*.js"
   },
   "dependencies": {
     "autoprefixer": "^9.8",
@@ -20,5 +22,13 @@
     "postcss-cli": "^7.1",
     "tailwindcss": "^1.5",
     "cross-env": "^7.0"
-  }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }

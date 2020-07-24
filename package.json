@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "autoprefixer": "^9.8",
-    "npm-watch": "^0.6.0",
+    "npm-watch": "^0.6",
     "postcss-cli": "^7.1",
     "tailwindcss": "^1.5",
     "cross-env": "^7.0"

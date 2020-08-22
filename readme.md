@@ -9,3 +9,10 @@ npm run dev
 npm run build
     Builds.
 ```
+
+Reinit the repo with
+
+```
+rm -rf .git
+git init
+```

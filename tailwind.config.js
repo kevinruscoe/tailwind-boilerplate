@@ -5,7 +5,9 @@ module.exports = {
         }
     },
     variants: {},
-    plugins: [],
+    plugins: [
+        require('tailwindcss-debug-screens')
+    ],
     purge: [
         './public/**/*.html'
     ]

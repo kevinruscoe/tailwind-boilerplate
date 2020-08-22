@@ -7,9 +7,12 @@
   "dependencies": {
     "parcel-bundler": "^1.12.4",
     "posthtml-include": "^1.4.3",
-    "tailwindcss": "^1.6.1"
+    "tailwindcss": "^1.7.3"
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "devDependencies": {
+    "tailwindcss-debug-screens": "^1.1.0"
+  }
 }

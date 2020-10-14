@@ -9,6 +9,10 @@ module.exports = {
     './public/**/*.html'
   ],
   theme: {
+    container: {
+      padding: '1rem',
+      center: true
+    },
     extend: {}
   },
   variants: {},

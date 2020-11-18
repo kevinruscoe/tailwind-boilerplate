@@ -1,4 +1,4 @@
-# A 'simple' starting point for TailWind.
+# A tailwind 2 boilerplate
 
 `npm i` (or `yarn install`) then:
 

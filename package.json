@@ -1,5 +1,5 @@
 {
-  "name": "tw",
+  "name": "tailwind-boilerplate",
   "scripts": {
     "build": "rm -rf dist && parcel build src/index.html --public-url . --no-cache",
     "dev": "parcel serve src/index.html"
@@ -8,13 +8,20 @@
     "autoprefixer": "^9.8.6",
     "parcel-bundler": "^1.12.4",
     "postcss": "^7.0.35",
-    "posthtml-include": "^1.6.0",
     "tailwindcss": "^2.0.1-compat"
   },
   "browserslist": [
     "defaults"
   ],
   "devDependencies": {
+    "posthtml-include": "^1.6.0",
     "tailwindcss-debug-screens": "^1.1.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "A nice tailwind 2.0 boilerplate.",
+  "main": "src/index.html",
+  "repository": "https://github.com/kevinruscoe/tailwind-boilerplate",
+  "author": "Kevin Ruscoe <hello@kevinruscoe.me>",
+  "license": "MIT",
+  "private": true
 }

@@ -1,12 +1,22 @@
 # A 'simple' starting point for TailWind.
 
-`npm i` then:
+`npm i` (or `yarn install`) then:
 
 ```
 npm run dev
     Watches and serves.
 
 npm run build
+    Builds.
+```
+
+or 
+
+```
+yarn run dev
+    Watches and serves.
+
+yarn run build
     Builds.
 ```
 

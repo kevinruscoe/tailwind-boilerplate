@@ -28,3 +28,7 @@ No yarn? No problem
 ```
 brew install yarn
 ```
+
+Why the compat version of tailwind?
+
+Parcel 1 doesn't support PostCSS8, only 7. Once parcel 2 is out, I'll migrate to PostCSS8 and the mainline tailwind.

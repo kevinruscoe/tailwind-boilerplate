@@ -1,16 +1,14 @@
 module.exports = {
+  mode: 'jit',
   purge: [
-    './src/**/*.html'
+    './public/**/*.html',
   ],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    container: {
-      padding: '1rem',
-      center: true
-    },
-    extend: {}
+    extend: {},
   },
-  variants: {},
-  plugins: [
-    require('tailwindcss-debug-screens')
-  ]
-};
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}

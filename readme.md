@@ -1,6 +1,6 @@
 # A tailwind and JS boilerplate
 
-Use tailwind jit-cli and rollup to build tailwind/js projects.
+A tailwind and rollup boilerplate to build tailwind/js projects.
 
 ## install
 

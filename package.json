@@ -1,8 +1,11 @@
 {
   "name": "tailwind-template",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.1",
+  "description": "A tailwind and rollup boilerplate to build tailwind/js projects.",
   "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
   "dependencies": {
     "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
@@ -27,6 +30,6 @@
     "js:build": "rollup -c ./rollup.config.js ./src/js/main.js --file ./public/dist/main.js --format es",
     "js:watch": "rollup -c ./rollup.config.js ./src/js/main.js --file ./public/dist/main.js --format es --watch"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kevin Ruscoe",
+  "license": "MIT"
 }

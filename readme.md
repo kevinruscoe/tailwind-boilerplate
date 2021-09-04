@@ -1,8 +1,14 @@
-# A tailwind boilerplate
+# A tailwind and JS boilerplate
+
+Use tailwind jit-cli and rollup to build tailwind/js projects.
+
+## install
 
 ```
 npm install
-``` then:
+``` 
+
+## run
 
 ```
 npm run dev
@@ -11,6 +17,8 @@ npm run dev
 npm run build
     Builds.
 ```
+
+# post install
 
 Reinit the repo with
 

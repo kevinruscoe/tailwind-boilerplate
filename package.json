@@ -8,9 +8,10 @@
     "js:watch": "rollup -c -w",
     "css:dev": "npx tailwindcss -i ./src/main.css -o ./dist/bundle.css",
     "css:watch": "npx tailwindcss -i ./src/main.css -o ./dist/bundle.css --watch",
+    "css:build": "NODE_ENV=production npx tailwindcss -i ./src/main.css -o ./dist/bundle.css --minify",
     "http:serve": "python -m SimpleHTTPServer 7654",
     "dev:watch": "npm run http:serve & open http://0.0.0.0:7654 & npm run js:watch & npm run css:watch",
-    "build": "NODE_ENV=production npx tailwindcss -i ./src/css/style.css -o ./public/dist/style.css --minify"
+    "build": "npm run css:build & npm run js:dev"
   },
   "devDependencies": {
     "alpinejs": "^3.9.5",

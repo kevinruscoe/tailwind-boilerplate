@@ -11,11 +11,12 @@ npm install
 ## run
 
 ```
-npm run dev
-    Watches and serves.
+npm run images:setup
+    Creates a symlink for images
 
-npm run build
-    Builds.
+npm run dev:watch
+    Watches JS and CSS and serves via a simple python server.
+
 ```
 
 # post install

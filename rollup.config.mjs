@@ -1,7 +1,7 @@
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
 import babel from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
+import { terser } from "@el3um4s/rollup-plugin-terser";
 
 export default {
   input: "_dud_input.js", // These are set in the exec() call
@@ -18,6 +18,7 @@ export default {
       sourceMap: false
     }),
     babel({
+      babelHelpers: 'bundled',
       exclude: "node_modules/**" // only transpile our source code
     }),
     terser()

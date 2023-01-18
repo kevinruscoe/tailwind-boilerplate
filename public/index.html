@@ -6,39 +6,459 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="./dist/style.css" />
+
+        <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+        <script src="//unpkg.com/alpinejs" defer></script>
+
     </head>
     <body class="bg-black text-white h-screen font-header">
 
-        <!-- Brands-->
-        <section class="py-14 container grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
-            <a href="#" class="bg-theme-gray-dark h-[80px] flex items-center justify-center">
-                Bike Protection
-            </a>
+        <section class="container mx-auto">
+            <header class="my-12">
+                <h1 class="text-4xl font-semibold mb-6">Decals</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam eligendi. Aut vero error corporis incidunt quos excepturi. Sed eos voluptate aliquam, laudantium quo nam? Deleniti quam possimus quisquam velit.</p>
+            </header>
+
+            <section class="grid grid-cols-1 lg:grid-cols-[200px_1fr] xl:grid-cols-[300px_1fr] gap-12">
+
+                <article class="order-2">
+                    <nav class="flex items-center mb-6">
+                        <p>Showing 1 to 15 of 100 results</p>
+                        
+                        <ul class="border ml-auto rounded-md flex [&_a]:flex [&_a]:p-2 [&_a]:px-4 hover:[&_a]:text-black hover:[&_a]:bg-theme-teal text-center divide-x">
+                            <li><a href="#">&laquo;</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">&hellip;</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">7</a></li>
+                            <li><a href="#">&raquo;</a></li>
+                        </ul>
+                    </nav>
+
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="h-[200px] bg-gray-900"></div>
+                                <span class="block p-3">
+                                    <span class="block text-lg">Product Name</span>
+                                    <span class="flex justify-between">
+                                        <span>Category</span>
+                                        <span>&pound;100.00</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+
+                <form class="order-1">
+                    <!-- toggle btn -->
+                    <!-- /toggle btn -->
+
+                    <fieldset x-data="{ expanded: true, fully: false}">
+                        <legend 
+                            x-on:click="expanded = !expanded" 
+                            class="select-none cursor-pointer block w-full">Type</legend>
+
+                        <div class="mt-4" x-show="expanded" x-collapse>
+                            <ul 
+                                class="flex flex-col pl-1 gap-2 overflow-scroll"
+                                x-bind:class="fully ? 'max-h-auto': 'max-h-[186px]'">
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                            </ul>
+
+                            <a 
+                                href="#show-more" 
+                                class="text-theme-teal mt-3 block" 
+                                x-on:click.prevent="fully = !fully"
+                                x-text="fully ? '- Show less' : '+ Show 20 more'"
+                                >
+                                20 more
+                            </a>
+                        </div>
+                    </fieldset>   
+
+                    <hr class="my-6">
+                    
+                    
+                    <fieldset x-data="{ expanded: true, fully: false}">
+                        <legend 
+                            x-on:click="expanded = !expanded" 
+                            class="select-none cursor-pointer block w-full">Type</legend>
+
+                        <div class="mt-4" x-show="expanded" x-collapse>
+                            <ul 
+                                class="flex flex-col pl-1 gap-2 overflow-scroll"
+                                x-bind:class="fully ? 'max-h-auto': 'max-h-[186px]'">
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                            </ul>
+
+                            <a 
+                                href="#show-more" 
+                                class="text-theme-teal mt-3 block" 
+                                x-on:click.prevent="fully = !fully"
+                                x-text="fully ? '- Show less' : '+ Show 20 more'"
+                                >
+                                20 more
+                            </a>
+                        </div>
+                    </fieldset>   
+
+                    <hr class="my-6">
+
+                    <fieldset x-data="{ expanded: true, fully: false}">
+                        <legend 
+                            x-on:click="expanded = !expanded" 
+                            class="select-none cursor-pointer block w-full">Type</legend>
+
+                        <div class="mt-4" x-show="expanded" x-collapse>
+                            <ul 
+                                class="flex flex-col pl-1 gap-2 overflow-scroll"
+                                x-bind:class="fully ? 'max-h-auto': 'max-h-[186px]'">
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                                <li class="flex items-center">
+                                    <label>
+                                        <input type="checkbox" name="" id="" class="mr-2 border rounded-md bg-transparent checked:bg-theme-teal hover:checked:bg-theme-teal focus:checked:bg-theme-teal">
+                                        Data 
+                                    </label>
+                                </li>
+                            </ul>
+
+                            <a 
+                                href="#show-more" 
+                                class="text-theme-teal mt-3 block" 
+                                x-on:click.prevent="fully = !fully"
+                                x-text="fully ? '- Show less' : '+ Show 20 more'"
+                                >
+                                20 more
+                            </a>
+                        </div>
+                    </fieldset>   
+
+                    <hr class="my-6">
+                </form>
+            </section>
         </section>
+        
 
         <script src="./dist/main.js"></script>
     </body>
